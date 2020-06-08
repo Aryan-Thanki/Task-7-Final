@@ -1,0 +1,27 @@
+.navbar-nav {
+background-color: grey;
+overflow: hidden;
+}
+.navbar-nav a {
+    color: black;
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar-nav a:hover {
+    background-color: azure;
+    color: black;
+}
+.navbar-nav a:active {
+    background-color: cornflowerblue;
+    color: white;
+}
+.li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+
+}
