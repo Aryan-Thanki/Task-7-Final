@@ -1,27 +1,46 @@
-.navbar-nav {
-background-color: grey;
-overflow: hidden;
+
+* {
+    box-sizing: border-box;
 }
-.navbar-nav a {
-    color: black;
-    float: center;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
+.body {
+    font-family: Arial, Verdana, sans-serif;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+    
 }
-.navbar-nav a:hover {
-    background-color: azure;
-    color: black;
+header {
+    color: green;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-.navbar-nav a:active {
-    background-color: cornflowerblue;
+nav {
+    background-color: grey;
+    font-size: 30px;
     color: white;
 }
-.li{
-    text-decoration: none;
-    list-style: none;
+.nav li{
+    display: inline;
+    list-style-type: none;
+    
 }
-body{
 
+.navbar h1 {
+    color: #6ab446;
+  }
+.btn {
+    border: none;
+    color: greenyellow;
+    padding: 32px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.register{
+    margin-right: -px;
 }
